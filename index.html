@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Fabián Pernía</title>
+		<meta name="fabian-cv" content="Fabián Pernía CV" />
+		<meta name="keywords" content="personal website, cv, resume" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" href="css/custom.css">
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div id="splitlayout" class="splitlayout">
+				<div class="intro">
+					<div class="side side-left">
+						<i class="fa fa-lightbulb-o fa-5x icon-quote vertical-transform" aria-hidden="true"></i>
+						<h1 quote class="quote vertical-transform"></h1>
+					</div>
+					<div class="side side-right">
+						<div class="intro-content">
+							<div class="profile"><img src="img/fabian-pernia.jpg" alt="profile-picture"></div>
+							<h1><span>Fabián Pernía </span><span>Web Developer</span><span class="email-address">fablexis@gmail.com</span></h1>
+						<div class="overlay"></div>
+					</div>
+				</div><!-- /intro -->
+				<div class="page page-right">
+					<div class="page-inner">
+						<section>
+							<h2>Acerca de mi</h2>
+							<p>
+								Soy un desarrollor web apasionado por aprender cosas nuevas.
+								No me molesta salir de mi zona de confort. Me gustan los retos.
+								Siempre que estoy en un equipo trato de aprender lo más que puedo de mis compañeros.
+								Busco contantemente mejorar la calidad de mi trabajo.
+							</p>
+							<p>
+								Amo lo que hago y por ello doy lo mejor de mi siempre. Una cosa adicional: disfruto mucho trabajar en el frontend.
+							</p>
+						</section>
+						<section>
+							<h2>Formación Académica</h2>
+							<h3><a href="http://www.ucv.ve/" target="_blank">Universidad Central de Venezuela.</a> Licenciado en Ciencias de la Computación</h3>
+						</section>
+						<section>
+							<h2>Tecnologías</h2>
+							<ul>
+								<li>JavaScript</li>
+								<li>AngularJS</li>
+								<li>Sass</li>
+								<li>Less</li>
+								<li>Lodash</li>
+								<li>Gulp</li>
+								<li>Jade</li>
+								<li>Handlebars</li>
+								<li>PHP</li>
+								<li>Cake PHP</li>
+								<li>Laravel</li>
+								<li>MySQL</li>
+								<li>Git</li>
+							</ul>
+						</section>
+						<section>
+							<h2>Experiencia laboral</h2>
+							<ul>
+								<li>
+									<h3>
+										<a href="http://www.bcv.org.ve/" target="_blank"><strong>Banco Central de Venezuela</strong> (Septiembre 2014 - Diciembre 2014)</a>: Desarrollador web. Departamento de programción y control de servicios.
+									</h3>
+								</li>
+								<li>
+									<h3>
+										<a href="http://www.enobasistemas.com/" target="_blank"><strong>Enoba Sistemas</strong> (Enero 2015 - Mayo 2016)</a>: Desarrollador web full-stack.
+									</h3>
+								</li>
+								<li>
+									<h3>
+										<a href="http://www.velocitypartners.net/" target="_blank"><strong>Velocity Partners</strong> (Mayo 2016 - Presente)</a>: Frontend Developer.
+									</h3>
+								</li>
+							</ul>
+						</section>
+						<section>
+							<h2>Resumen Curricular</h2>
+							<div class="centered-content">
+								<a href="files/cv-fabian-pernia.pdf" target="_blank">
+									<i class="fa fa-download fa-3x" aria-hidden="true"></i>
+									<h5 class="no-margin">Click para descargar CV</h5>
+								</a>
+							</div>
+						</section>
+						<section>
+							<h2>Contacto</h2>
+							<div class="centered-content">
+								<a href="http://www.linkedin.com/in/fabián-pernía-a302b3105" target="_blank">
+									<i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+								</a>
+								<a href="mailto:fablexis@gmail.com" target="_blank">
+									<i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+								</a>
+							</div>
+						</section>
+					</div><!-- /page-inner -->
+				</div><!-- /page-right -->
+				<a href="#" class="back back-left" title="back to intro">&larr;</a>
+			</div><!-- /splitlayout -->
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/cbpSplitLayout.js"></script>
+		<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
+		<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+		<script>
+			$(function(){
+				$('[quote]').typeIt({
+				speed: 100,
+				autoStart: false
+			})
+			.tiType('"La única forma de hacer')
+			.tiBreak()
+			.tiType("un gran trabajo es...")
+			.tiPause(500)
+			.tiSettings({speed: 700})
+			.tiDelete(3)
+			.tiSettings({speed: 100})
+			.tiBreak()
+			.tiType('que ames lo que haces".')
+			.tiBreak()
+			.tiPause(500)
+			.tiType('Steve Jobs');
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+.email-address{
+    font-size: 20px;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.icon-quote{
+    top: 37%;
+}
+
+.quote{
+    top: 50%;
+    left: 50%;
+}
+
+.vertical-transform{
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.centered-content{
+    text-align: center;
+}
+
+.centered-content a {
+    padding-right: 10px;
+}
