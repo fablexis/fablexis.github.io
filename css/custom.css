@@ -23,7 +23,7 @@
 
 .vertical-transform{
     position: absolute;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-25%);
 }
 
 .centered-content{
