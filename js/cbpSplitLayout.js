@@ -60,7 +60,6 @@
 			};
 
 		splitlayout.querySelector( 'a.back-left' ).addEventListener( eventtype, backToIntro );
-		splitlayout.querySelector( 'a.back-right' ).addEventListener( eventtype, backToIntro );
 	}
 
 	function reset() {
